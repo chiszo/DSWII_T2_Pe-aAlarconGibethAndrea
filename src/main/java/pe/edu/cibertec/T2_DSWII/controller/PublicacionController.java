@@ -54,7 +54,7 @@ public class PublicacionController {
                         + id + " no existe"));
         newpublicacion.setTitulo(publicacion.getTitulo());
         newpublicacion.setResumen(publicacion.getResumen());
-        newpublicacion.setFechapublicacion(publicacion.getFechapublicacion());
+        newpublicacion.setFechpublicacion(publicacion.getFechpublicacion());
         newpublicacion.setIdautor(publicacion.getIdautor());
         return new ResponseEntity<>(publicacionService.guardarPublicacion(newpublicacion),
                 HttpStatus.OK);

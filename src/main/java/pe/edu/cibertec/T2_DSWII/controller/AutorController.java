@@ -54,7 +54,7 @@ public class AutorController {
                         + id + " no existe"));
         newautor.setNomautor(autor.getNomautor());
         newautor.setApeautor(autor.getApeautor());
-        newautor.setFechNacAutor(autor.getFechNacAutor());
+        newautor.setFechnacautor(autor.getFechnacautor());
         return new ResponseEntity<>(autorService.guardarAutor(newautor),
                 HttpStatus.OK);
     }

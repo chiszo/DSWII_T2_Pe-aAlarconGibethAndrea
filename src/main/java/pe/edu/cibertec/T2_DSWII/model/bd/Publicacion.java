@@ -16,6 +16,6 @@ public class Publicacion {
     private Integer idpublicacion;
     private String titulo;
     private String resumen;
-    private Date fechapublicacion;
+    private Date fechpublicacion;
     private Integer idautor;
 }

@@ -18,5 +18,5 @@ public class Autor {
     private Integer idautor;
     private String nomautor;
     private String apeautor;
-    private Date fechNacAutor;
+    private Date fechnacautor;
 }

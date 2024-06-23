@@ -1,5 +1,6 @@
 package pe.edu.cibertec.T2_DSWII.service;
 
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import pe.edu.cibertec.T2_DSWII.model.bd.Publicacion;
 import pe.edu.cibertec.T2_DSWII.repository.PublicacionRepository;
@@ -7,6 +8,7 @@ import pe.edu.cibertec.T2_DSWII.repository.PublicacionRepository;
 import java.util.List;
 import java.util.Optional;
 
+@AllArgsConstructor
 @Service
 public class PublicacionService implements IPublicacionService {
     private PublicacionRepository publicacionRepository;
